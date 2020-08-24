@@ -1,6 +1,6 @@
 # Trybe Course Repo
 
-#### Código desenvolvido durante o curso da [Trybe][https://www.betrybe.com/]
+#### Código desenvolvido durante o curso da [Trybe](https://www.betrybe.com/)
 
 * Bloco 1
     * Shell
