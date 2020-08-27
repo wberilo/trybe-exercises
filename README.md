@@ -10,3 +10,5 @@
 * Bloco 3
     * CSS
     * HTML
+* Bloco 4
+    * Javascript
