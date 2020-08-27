@@ -15,6 +15,8 @@ else if( hora >= 12 && hora <= 18){
 else{
     console.log("boa noite")
 }
+5 == "5" //true
+5 === "5" //false
 
 let permicao
 
