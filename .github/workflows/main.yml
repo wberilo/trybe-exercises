@@ -26,6 +26,7 @@ jobs:
           badge: ./output/badge.svg
           ignore: 'README.md'
           patterns: '**'
+          badge_color: "cyan"
       - name: Deploy to image-data branch
         uses: peaceiris/actions-gh-pages@v3
         with:
