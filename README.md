@@ -12,6 +12,6 @@
 * Bloco 3
     * CSS
     * HTML
-    * <a href="https://github.com/wberilo/trybe-project-block-3" target="_blank">Project Lessons Learned</a>
+    * [Project Lessons Learned](https://github.com/wberilo/trybe-project-block-3)
 * Bloco 4
     * Javascript
