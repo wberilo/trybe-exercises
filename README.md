@@ -14,4 +14,5 @@
     * HTML
     * [Project Lessons Learned](https://github.com/wberilo/trybe-project-block-3)
 * Bloco 4
+    * Estrutura de algoritmos
     * Javascript
