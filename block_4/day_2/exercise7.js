@@ -3,7 +3,7 @@ let result = 50;
 
 for (let index = 0; index < numbers.length; index++) {
   if(result >= numbers[index]){
-    result = numbers[index]
+    result = numbers[index];
   }
 }
 console.log(result);
