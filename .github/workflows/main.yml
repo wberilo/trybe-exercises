@@ -23,7 +23,7 @@ jobs:
         id: badge
         with:
           debug: true
-          directory: ./*
+          directory: $GITHUB_WORKSPACE
           badge: ./output/badge.svg
           patterns: '*'  # Patterns in the format of a '.gitignore' file, separated by pipes.
           ignore: 'node_modules'
