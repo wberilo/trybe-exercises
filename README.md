@@ -12,5 +12,6 @@
 * Bloco 3
     * CSS
     * HTML
+    * Projeto Lessons Learned
 * Bloco 4
     * Javascript
