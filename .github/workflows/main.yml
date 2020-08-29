@@ -24,7 +24,7 @@ jobs:
         with:
           debug: true
           badge: ./output/badge.svg
-          ignore: 'README'
+          ignore: ''
           patterns: '*.js|*.html|*.css'
       - name: Deploy to image-data branch
         uses: peaceiris/actions-gh-pages@v3
