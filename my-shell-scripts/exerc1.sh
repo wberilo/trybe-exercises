@@ -12,7 +12,7 @@ echo "você também pode editar";
 fi
 if [ -d "$i" ]
 then
-echo "directory has $( ls $i | wc -l ) files";
+echo "directory has " $( ls $i | wc -l ) " files";
 fi
 fi
 done
