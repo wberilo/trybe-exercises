@@ -1,14 +1,14 @@
 let p = 90;
 if (p >= 90) {
-  console.log("A");
+  console.log('A');
 } else if (p >= 80) {
-  console.log("B");
+  console.log('B');
 } else if (p >= 70) {
-  console.log("C");
+  console.log('C');
 } else if (p >= 60) {
-  console.log("D");
+  console.log('D');
 } else if (p >= 50) {
-  console.log("E");
+  console.log('E');
 } else {
-  console.log("F");
+  console.log('F');
 }
