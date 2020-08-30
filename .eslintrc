@@ -6,9 +6,7 @@
     "func-names": "off",
     "no-param-reassign": "off",
     "prefer-const": "off",
-    "no-restricted-syntax": ["off", "FunctionExpression", "WithStatement", "BinaryExpression[operator='in']"],
-    "allowTernary": true,
-    "allowShortCircuit": true
+    "no-restricted-syntax": ["off", "FunctionExpression", "WithStatement", "BinaryExpression[operator='in']"]
   },
   "env": {
     "browser": true,
