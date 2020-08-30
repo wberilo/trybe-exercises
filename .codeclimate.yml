@@ -32,7 +32,9 @@ checks:
       threshold: # language-specific defaults. an override will affect all languages.
 exclude_patterns:
 - "node_modules/"
+- "tests/"
 - "test/"
+- "README.md"
 plugins:
   editorconfig:
     enabled: true
