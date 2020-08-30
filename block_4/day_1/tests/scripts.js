@@ -2,7 +2,6 @@ let a = 3;
 
 let b = 3;
 console.log(a + b);
-let c;
 let hora = 10;
 
 if (hora < 12) {
@@ -12,8 +11,8 @@ if (hora < 12) {
 } else {
   console.log('boa noite');
 }
-5 == '5'; //true
-5 === '5'; //false
+//5 == '5'; true
+//5 === '5'; false
 
 let permicao;
 
