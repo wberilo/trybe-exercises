@@ -6,34 +6,19 @@ function roman(a) {
   b = b.replace('XC', 'LXXXX');
   b = b.replace('CD', 'CCCC');
   b = b.replace('CM', 'DCCCC');
+  let translate = {
+    I:1,
+    V:5,
+    X:10,
+    L:50,
+    C:100,
+    D:500,
+    M:1000,
+  }
   console.log(a, b);
   for (let i in b) {
     console.log(b[i]);
-    switch (b[i]) {
-      case 'I':
-        out += 1;
-        break;
-      case 'V':
-        out += 5;
-        break;
-      case 'X':
-        out += 10;
-        break;
-      case 'L':
-        out += 50;
-        break;
-      case 'C':
-        out += 100;
-        break;
-      case 'D':
-        out += 500;
-        break;
-      case 'M':
-        out += 1000;
-        break;
-      default:
-        break;
-    }
+    out += translate[b[i]]
   }
   console.log(out);
 }
