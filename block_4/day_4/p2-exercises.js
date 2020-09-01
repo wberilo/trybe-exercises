@@ -35,36 +35,35 @@ function menorValor(arr) {
 console.log(menorValor([2, 4, 6, 7, 10, 0, -3]));
 
 function mostLetters(names) {
-	let cou = 0;
-	let out = '';
+  let cou = 0;
+  let out = "";
   for (name in names) {
-		if(names[name].length > cou){
-			cou = names[name].length;
-			out = names[name];
-		}
-	}
-	return out;
+    if (names[name].length > cou) {
+      cou = names[name].length;
+      out = names[name];
+    }
+  }
+  return out;
 }
 console.log(
   mostLetters(["José", "Lucas", "Nádia", "Fernanda", "Cairo", "Joana"])
 );
 
-function summation(n){
-	let out = 0;
-	for (let i = 1 ; i <= n ; i++) {
-		out = out + i;
-	}
-	return out;
+function summation(n) {
+  let out = 0;
+  for (let i = 1; i <= n; i++) {
+    out = out + i;
+  }
+  return out;
 }
-console.log(summation(5))
+console.log(summation(5));
 
-function stringer(word,ending){
-	let end = word.slice(-(ending.length))
-	if(end == ending){
-		return true;
-	}
-	else {
-		return false;
-	}
+function stringer(word, ending) {
+  let end = word.slice(-ending.length);
+  if (end == ending) {
+    return true;
+  } else {
+    return false;
+  }
 }
-console.log(stringer('trybe','be'))
+console.log(stringer("trybe", "be"));

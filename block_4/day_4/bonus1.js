@@ -1,43 +1,43 @@
-function roman(a){
-    let out = 0;
-    let b = a.replace('IV','IIII')
-    b = b.replace('IX','VIII')
-    b = b.replace('XL','XXXX')
-    b = b.replace('XC','LXXXX')
-    b = b.replace('CD','CCCC')
-    b = b.replace('CM','DCCCC')
-    console.log(a,b)
-    for (let i in b) {
-        console.log(b[i]);
-        switch (b[i]) {
-            case 'I':
-                out += 1;
-                break;
-            case 'V':
-                out += 5;
-                break;
-            case 'X':
-                out += 10;
-                break;
-            case 'L':
-                out += 50;
-                break
-            case 'C':
-                out += 100;
-                break;
-            case 'D':
-                out += 500;
-                break;
-            case 'M':
-                out += 1000;
-                break;
-            default:
-                break;
-        }
+function roman(a) {
+  let out = 0;
+  let b = a.replace("IV", "IIII");
+  b = b.replace("IX", "VIII");
+  b = b.replace("XL", "XXXX");
+  b = b.replace("XC", "LXXXX");
+  b = b.replace("CD", "CCCC");
+  b = b.replace("CM", "DCCCC");
+  console.log(a, b);
+  for (let i in b) {
+    console.log(b[i]);
+    switch (b[i]) {
+      case "I":
+        out += 1;
+        break;
+      case "V":
+        out += 5;
+        break;
+      case "X":
+        out += 10;
+        break;
+      case "L":
+        out += 50;
+        break;
+      case "C":
+        out += 100;
+        break;
+      case "D":
+        out += 500;
+        break;
+      case "M":
+        out += 1000;
+        break;
+      default:
+        break;
     }
-    console.log(out);
+  }
+  console.log(out);
 }
-roman('XIV')
+roman("CMIV");
 
 // | I   | 1    |
 // | --- | ---- |
