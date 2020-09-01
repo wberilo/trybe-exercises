@@ -1,28 +1,27 @@
 function roman(a) {
   let out = 0;
   let b = a.replace('IV', 'IIII');
-  b = b.replace('IX', 'VIII');
+  b = b.replace('IX', 'IIIIIIIII');
   b = b.replace('XL', 'XXXX');
-  b = b.replace('XC', 'LXXXX');
+  b = b.replace('XC', 'XXXXXXXXX');
   b = b.replace('CD', 'CCCC');
-  b = b.replace('CM', 'DCCCC');
+  b = b.replace('CM', 'CCCCCCCCC');
   let translate = {
-    I:1,
-    V:5,
-    X:10,
-    L:50,
-    C:100,
-    D:500,
-    M:1000,
-  }
+    I: 1,
+    V: 5,
+    X: 10,
+    L: 50,
+    C: 100,
+    D: 500,
+    M: 1000,
+  };
   console.log(a, b);
   for (let i in b) {
-    console.log(b[i]);
-    out += translate[b[i]]
+    out += translate[b[i]];
   }
   console.log(out);
 }
-roman('CMIV');
+roman('MCDIV');
 
 // | I   | 1    |
 // | --- | ---- |
