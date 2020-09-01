@@ -1,6 +1,6 @@
 function verificaPalindrome(str) {
   let spl = str.split('').reverse().join('');
-  if (spl == str) {
+  if (spl === str) {
     return true;
   } else {
     return false;
@@ -60,7 +60,7 @@ console.log(summation(5));
 
 function stringer(word, ending) {
   let end = word.slice(-ending.length);
-  if (end == ending) {
+  if (end === ending) {
     return true;
   }
   return false;

@@ -12,9 +12,9 @@ let info2 = {
   recorrente: 'Sim',
 };
 
-for (i in info) {
+for (let i in info) {
   if (i == 'recorrente') {
-    if (info[i] == info2[i]) {
+    if (info[i] === info2[i]) {
       console.log('ambos', info[i]);
     }
   } else {
