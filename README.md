@@ -18,3 +18,4 @@
 * Bloco 4
     * Estrutura de algoritmos
     * Javascript
+    * Objetos
