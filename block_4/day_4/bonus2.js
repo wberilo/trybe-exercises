@@ -23,7 +23,6 @@ function add(num1, num2) {
   for (let k in out) {
     outs += out[k];
   }
-  console.log(outs);
   return parseInt(outs);
 }
-add(25,16)
+console.log(add(25 , 16));
