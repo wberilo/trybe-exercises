@@ -19,3 +19,6 @@
     * Estrutura de algoritmos
     * Javascript
     * Objetos
+    * [Project Playground Functions](https://github.com/wberilo/trybe-project-block-4)
+* Block 5
+    * JavaScript - DOM & selectors
