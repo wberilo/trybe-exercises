@@ -26,12 +26,14 @@
         alert('página foi clicada');
       }
 
-      let clickP = document.getElementsByClassName('lib-button');
-      clickP.addEventListener('click', recebeclick);
+      let clickP = document.querySelector('#lib-button');
+      //clickP.addEventListener('click', recebeclick);
+      clickP.addEventListener('click',function(){alert('botão foi clicado via função anônima')})
 
       function recebeclick(eventoDeOrigen) {
         console.log(eventoDeOrigen);
       }
+      
     </script>
   </body>
 </html>

@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Exercício - Parte 2</title>
-    <!-- Seu código JavaScript pode vir aqui -->
-    <!-- Seu código JavaScript pode vir aqui -->
-    <!-- Seu código JavaScript pode vir aqui -->
+    <script>
+        window.onload = function(){document.querySelector('.tarefa1').addEventListener('click',function(){alert('Você clicou no botão')})}
+    </script>
   </head>
   <body>
     <div>
@@ -19,7 +19,7 @@
         clicado um alerta contendo a mensagem "Você clicou no botão" deverá ser
         exibido.
       </p>
-      <div class="tarefa1">Adicione o botão aqui!</div>
+      <button class="tarefa1">Botão</button>
       <hr />
       <h2>Tarefa 2</h2>
       <p>
@@ -35,10 +35,11 @@
         <strong>discount</strong> o resultado da multiplicação.
       </p>
       <script language="javascript" type="text/javascript">
-        //JavaScript para a tarefa 2
-        //JavaScript para a tarefa 2
-        //JavaScript para a tarefa 2
+        let productPrice = 59.99;
+        let discount = 0.30;
+        window.onload = function () {document.querySelector('#t2b').addEventListener('click',function(){alert('Desconto de '+ productPrice*discount)})}
       </script>
+      <button id="t2b">Botão</button>
       <hr />
       <h2>Bônus</h2>
       <p>
@@ -54,7 +55,20 @@
         Além disso, sempre que um dos eventos for realizado deve-se logar no
         console qual dos eventos acabou de ocorrer.
       </p>
-      <!-- Adicione a tag <img /> aqui -->
+      <img id="img1" src="https://via.placeholder.com/150/0000FF/808080"><img id="img2" src="https://via.placeholder.com/150/FF0000/FFFFFF">
+      <script>
+          let img1 = document.querySelector('#img1')
+          let img2 = document.querySelector('#img2')
+          let h;
+          img1.addEventListener('mouseover',ch)
+          img1.addEventListener('mouseleave',ch)
+          function ch(){
+              h = img1.src;
+              img1.src = img2.src;
+              img2.src = h;
+          }
+
+      </script>
     </div>
   </body>
 </html>
