@@ -12,43 +12,46 @@ for (let i = 0; i < change.length; i++) {
   change[i].style.lineHeight = spacing;
   change[i].style.fontFamily = ffamily;
 }
-document.querySelector("#bgcolor-button").addEventListener("click", bgcolorf);
+document
+  .querySelector("#bgcolor-button")
+  .addEventListener("click", function () {
+    bgcolor = document.getElementById("bgcolor-input").value;
+    document.body.style.backgroundColor = bgcolor;
+    localStorage.setItem("bgcolor", bgcolor);
+  });
 document
   .querySelector("#textcolor-button")
-  .addEventListener("click", textcolorf);
-document.querySelector("#fontsize-button").addEventListener("click", fontsf);
-document.querySelector("#spacing-button").addEventListener("click", spacingf);
-document.querySelector("#ffamily-button").addEventListener("click", ffamilyf);
-function bgcolorf() {
-  bgcolor = document.getElementById("bgcolor-input").value;
-  document.body.style.backgroundColor = bgcolor;
-  localStorage.setItem("bgcolor", bgcolor);
-}
-function textcolorf() {
-  textcolor = document.getElementById("textcolor-input").value;
-  for (let i = 0; i < change.length; i++) {
-    change[i].style.color = textcolor;
-  }
-  localStorage.setItem("textcolor", textcolor);
-}
-function fontsf() {
-  fonts = document.getElementById("fonts-input").value + "px";
-  for (let i = 0; i < change.length; i++) {
-    change[i].style.fontSize = fonts;
-  }
-  localStorage.setItem("fontsize", fonts);
-}
-function spacingf() {
-  spacing = document.getElementById("spacing-input").value + "px";
-  for (let i = 0; i < change.length; i++) {
-    change[i].style.lineHeight = spacing;
-  }
-  localStorage.setItem("spacing", spacing);
-}
-function ffamilyf() {
-  ffamily = document.getElementById("ffamily-input").value;
-  for (let i = 0; i < change.length; i++) {
-    change[i].style.fontFamily = ffamily;
-  }
-  localStorage.setItem("ffamily", ffamily);
-}
+  .addEventListener("click", function () {
+    textcolor = document.getElementById("textcolor-input").value;
+    for (let i = 0; i < change.length; i++) {
+      change[i].style.color = textcolor;
+    }
+    localStorage.setItem("textcolor", textcolor);
+  });
+document
+  .querySelector("#fontsize-button")
+  .addEventListener("click", function () {
+    fonts = document.getElementById("fonts-input").value + "px";
+    for (let i = 0; i < change.length; i++) {
+      change[i].style.fontSize = fonts;
+    }
+    localStorage.setItem("fontsize", fonts);
+  });
+document
+  .querySelector("#spacing-button")
+  .addEventListener("click", function () {
+    spacing = document.getElementById("spacing-input").value + "px";
+    for (let i = 0; i < change.length; i++) {
+      change[i].style.lineHeight = spacing;
+    }
+    localStorage.setItem("spacing", spacing);
+  });
+document
+  .querySelector("#ffamily-button")
+  .addEventListener("click", function () {
+    ffamily = document.getElementById("ffamily-input").value;
+    for (let i = 0; i < change.length; i++) {
+      change[i].style.fontFamily = ffamily;
+    }
+    localStorage.setItem("ffamily", ffamily);
+  });
