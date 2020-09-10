@@ -22,3 +22,6 @@
     * [Project Playground Functions](https://github.com/wberilo/trybe-project-block-4)
 * Block 5
     * JavaScript - DOM & selectors
+    * Elements
+    * Events
+    * Web storage
