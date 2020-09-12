@@ -13,25 +13,22 @@
     <script>
       let img = document.querySelector('img');
       img.style.left = '0px';
-      img.addEventListener
+      img.addEventListener;
       let ta = false;
       window.setInterval(catWalk, 5);
       function catWalk() {
-        
-        if ((parseInt(img.style.left) > window.innerWidth)) {
+        if (parseInt(img.style.left) > window.innerWidth) {
           ta = true;
         }
-        if((parseInt(img.style.left) < 0)){
-          ta = false
+        if (parseInt(img.style.left) < 0) {
+          ta = false;
         }
-        if(ta == true){
-          console.log('a')
+        if (ta === true) {
+          console.log('a');
           img.style.left = parseInt(img.style.left) - 10 + 'px';
-        }
-        else{
+        } else {
           img.style.left = parseInt(img.style.left) + 10 + 'px';
         }
-        
       }
     </script>
   </body>

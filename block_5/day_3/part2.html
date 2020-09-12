@@ -5,7 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Exercício - Parte 2</title>
     <script>
-        window.onload = function(){document.querySelector('.tarefa1').addEventListener('click',function(){alert('Você clicou no botão')})}
+      window.onload = function () {
+        document
+          .querySelector('.tarefa1')
+          .addEventListener('click', function () {
+            alert('Você clicou no botão');
+          });
+      };
     </script>
   </head>
   <body>
@@ -36,8 +42,12 @@
       </p>
       <script language="javascript" type="text/javascript">
         let productPrice = 59.99;
-        let discount = 0.30;
-        window.onload = function () {document.querySelector('#t2b').addEventListener('click',function(){alert('Desconto de '+ productPrice*discount)})}
+        let discount = 0.3;
+        window.onload = function () {
+          document.querySelector('#t2b').addEventListener('click', function () {
+            alert('Desconto de ' + productPrice * discount);
+          });
+        };
       </script>
       <button id="t2b">Botão</button>
       <hr />
@@ -46,8 +56,8 @@
         Para essa última tarefa você irá precisar de duas imagens do mesmo
         tamanho. Adicione uma imagem a está página usando uma tag HTML &lt;img
         /&gt;. Usando os manipuladores de eventos
-        <strong>onMouseOver()</strong> e <strong>onMouseLeave()</strong>, faça com
-        que a imagem mude para a segunda imagem quando o ponteiro do mouse
+        <strong>onMouseOver()</strong> e <strong>onMouseLeave()</strong>, faça
+        com que a imagem mude para a segunda imagem quando o ponteiro do mouse
         passar sobre ela e, em seguida, voltar para a primeira imagem quando o
         ponteiro do mouse for movido para fora da imagem.
       </p>
@@ -55,19 +65,21 @@
         Além disso, sempre que um dos eventos for realizado deve-se logar no
         console qual dos eventos acabou de ocorrer.
       </p>
-      <img id="img1" src="https://via.placeholder.com/150/0000FF/808080"><img id="img2" src="https://via.placeholder.com/150/FF0000/FFFFFF">
+      <img id="img1" src="https://via.placeholder.com/150/0000FF/808080" /><img
+        id="img2"
+        src="https://via.placeholder.com/150/FF0000/FFFFFF"
+      />
       <script>
-          let img1 = document.querySelector('#img1')
-          let img2 = document.querySelector('#img2')
-          let h;
-          img1.addEventListener('mouseover',ch)
-          img1.addEventListener('mouseleave',ch)
-          function ch(){
-              h = img1.src;
-              img1.src = img2.src;
-              img2.src = h;
-          }
-
+        let img1 = document.querySelector('#img1');
+        let img2 = document.querySelector('#img2');
+        let h;
+        img1.addEventListener('mouseover', ch);
+        img1.addEventListener('mouseleave', ch);
+        function ch() {
+          h = img1.src;
+          img1.src = img2.src;
+          img2.src = h;
+        }
       </script>
     </div>
   </body>
