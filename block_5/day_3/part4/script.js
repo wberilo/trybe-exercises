@@ -14,7 +14,7 @@ let b = document.querySelector('.textEntry');
 b.addEventListener('input', typeAndScream);
 
 function goDark() {
-  var body = document.getElementsByTagName('body')[0];
+  let body = document.getElementsByTagName('body')[0];
   if (body.className == '') {
     body.className = 'dark';
   } else {
