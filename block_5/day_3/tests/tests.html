@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+  </head>
+  <body>
+    <h1>Mad Libs</h1>
+
+    <ul>
+      <li>Noun: <input type="text" id="noun" /></li>
+      <li>Adjective: <input type="text" id="adjective" /></li>
+      <li>Someone's Name: <input type="text" id="person" /></li>
+    </ul>
+
+    <button id="lib-button" onclick="onclic">Lib it!</button>
+
+    <div id="story"></div>
+    <script>
+      window.onload = jsCarregado();
+
+      function jsCarregado() {
+        alert('página foi carregada');
+      }
+      function onclic() {
+        alert('página foi clicada');
+      }
+
+      let clickP = document.querySelector('#lib-button');
+      //clickP.addEventListener('click', recebeclick);
+      clickP.addEventListener('click',function(){alert('botão foi clicado via função anônima')})
+
+      function recebeclick(eventoDeOrigen) {
+        console.log(eventoDeOrigen);
+      }
+      
+    </script>
+  </body>
+</html>

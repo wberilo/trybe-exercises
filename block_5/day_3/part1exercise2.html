@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <label
+      >Square this number:
+      <input type="number" id="square-input" size="2" />
+    </label>
+    <button id="square-button">Calculate</button>
+    <br /><br />
+
+    <label
+      >Half this number:
+      <input type="number" id="half-input" size="2" />
+    </label>
+    <button id="half-button">Calculate</button>
+    <br /><br />
+
+    <label>
+      Fraction:
+      <input type="number" id="percent1-input" size="2" />
+    </label>
+    <label>
+      Whole:
+      <input type="number" id="percent2-input" size="2" />
+    </label>
+    <button id="percent-button">Calculate</button>
+    <br /><br />
+
+    <label
+      >Calculate area of circle with radius:
+      <input type="number" id="area-input" size="2" />
+    </label>
+    <button id="area-button">Calculate</button>
+    <br /><br />
+    <div id="solution"></div>
+
+    <script>
+      function square(a) {
+        return a * a;
+      }
+      function half(a) {
+        return a / 2;
+      }
+      function percentOf(num1, num2) {
+        return (num1 / num2) * 100;
+      }
+      function areaOfCircle(radius) {
+        return Math.PI * square(radius);
+      }
+      function exec1() {
+        document.querySelector('#solution').innerText = square(
+          document.querySelector('#square-input').value
+        );
+      }
+      document.querySelector('#square-button').addEventListener('click', exec1);
+      function exec2() {
+        document.querySelector('#solution').innerText = half(
+          document.querySelector('#half-input').value
+        );
+      }
+      document.querySelector('#half-button').addEventListener('click', exec2);
+      function exec3() {
+        document.querySelector('#solution').innerText = percentOf(
+          document.querySelector('#percent1-input').value,
+          document.querySelector('#percent2-input').value
+        );
+      }
+      document
+        .querySelector('#percent-button')
+        .addEventListener('click', exec3);
+      function exec4() {
+        document.querySelector('#solution').innerText = areaOfCircle(
+          document.querySelector('#area-input').value
+        );
+      }
+      document.querySelector('#area-button').addEventListener('click', exec4);
+    </script>
+  </body>
+</html>
