@@ -218,26 +218,3 @@ Você pode ficar à vontade para fazer o exercício diretamente no _CodePen_, ma
 [Exercício 6: Conectando as pontas.](https://codepen.io/prosetech/pen/oRxMmZ)
 
 * * *
-
-Recursos adicionais (opcional)
-------------------------------
-
-E aí, gostou do que aprendeu até aqui? Nesta parte, nós colocamos outras referências para você se aprofundar sobre o tema. Artigos, tutoriais, livros etc.
-
-*   [Mais exercícios do W3Schools](https://www.w3schools.com/js/exercise_js.asp?filename=exercise_js_events1)
-    
-*   [Como comparar datas no JavaScript](https://pt.stackoverflow.com/questions/217881/comparar-data-atual-com-javascript?rq=1)
-    
-*   [Como comparar datas no JavaScript de outra forma](https://medium.com/lucianobragaweb/comparar-datas-em-javascript-9b1d1febbe9a)
-    
-*   [Documentação sobre eventos do W3Schools](https://www.w3schools.com/js/js_htmldom_events.asp)
-    
-*   [Documentação sobre `eventListener` do W3Schools](https://www.w3schools.com/js/js_htmldom_eventlistener.asp)
-    
-*   [Exemplos de eventos em JavaScript do W3Schools](https://www.w3schools.com/js/js_events_examples.asp)
-    
-*   [Tutorial da Mozilla sobre eventos JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events)
-    
-*   [Artigo da Mozilla sobre eventos JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/Guide/Events/criando_e_disparando_eventos)
-    
-*   [Livro 'Eloquent JavaScript' traduzido para portguês, online e gratuito](http://braziljs.github.io/eloquente-javascript/)
