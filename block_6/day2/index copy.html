@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
+    
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css"
+    />
+    <link
+      href="bootstrap-4.5.2-dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script type="text/javascript" src="bootstrap-4.5.2-dist/js/bootstrap.min.js"></script>
+    <link href="node_modules/popup-validation/bin/validation.min.css" rel="stylesheet">
+    <script src="node_modules/popup-validation/bin/validation.min.js"></script> 
+  </head>
+  <body>
+
+
+    <br>
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" id="email" class="validate" 
+             data-validate="required,email" />
+    </div>  
+    </form>
+    <div class="information-user"></div>
+    <script>
+      validation.init()
+    </script>
+  </body>
+</html>
