@@ -14,14 +14,19 @@
 * Bloco 3
     * CSS
     * HTML
-    * [Project Lessons Learned](https://github.com/wberilo/trybe-project-block-3)
+    * [Lessons Learned](https://github.com/wberilo/trybe-project-block-3)
 * Bloco 4
     * Estrutura de algoritmos
     * Javascript
     * Objetos
-    * [Project Playground Functions](https://github.com/wberilo/trybe-project-block-4)
+    * [Playground Functions](https://github.com/wberilo/trybe-project-block-4)
 * Block 5
     * JavaScript - DOM & selectors
     * Elements
     * Events
     * Web storage
+    * [Meme Generator](https://github.com/wberilo/meme-generator)
+    * [Pixel Art](https://github.com/wberilo/pixel-art)
+    * [To-do list](https://github.com/wberilo/todo-list)
+    * [(Bonus)Mistery Letter](https://github.com/wberilo/mistery-letter)
+    * [(Bonus)Color guess](https://github.com/wberilo/color-guess)
