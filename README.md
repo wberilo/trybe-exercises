@@ -30,3 +30,11 @@
     * [To-do list](https://github.com/wberilo/todo-list)
     * [(Bonus)Mistery Letter](https://github.com/wberilo/mistery-letter)
     * [(Bonus)Color guess](https://github.com/wberilo/color-guess)
+* Block 6
+    * HTML & CSS - Forms
+    * Bibliotecas JavaScript e Frameworks CSS
+    * Introdução - CSS Flexbox
+    * CSS Flexbox - Parte 1
+    * CSS Flexbox - Parte 2
+    * CSS Responsivo - Mobile First
+* Block 7
