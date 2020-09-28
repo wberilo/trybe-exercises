@@ -18,50 +18,52 @@ const lesson3 = {
   turno: 'noite',
 };
 
-const exercise1 = (lesson1,lesson2,param) => lesson2[param] = lesson1[param]
+const exercise1 = (lesson1, lesson2, param) =>
+  (lesson2[param] = lesson1[param]);
 
-exercise1(lesson1,lesson2,'turno')
-//console.log(lesson2)
-
-// 
-
-const exercise2 = lesson => Object.keys(lesson)
-
-//console.log(exercise2(lesson3))
-
-// 
-
-const exercise3 = lesson => Object.keys(lesson).length
-
-//console.log(exercise3(lesson3))
+exercise1(lesson1, lesson2, 'turno');
+console.log(lesson2)
 
 //
 
-const exercise4 = lesson => Object.values(lesson)
+const exercise2 = (lesson) => Object.keys(lesson);
 
-//console.log(exercise4(lesson3))
+console.log(exercise2(lesson3))
+
+//
+
+const exercise3 = (lesson) => Object.keys(lesson).length;
+
+console.log(exercise3(lesson3))
+
+//
+
+const exercise4 = (lesson) => Object.values(lesson);
+
+console.log(exercise4(lesson3))
 //
 const allLessons = Object.assign(this, { lesson1, lesson2, lesson3 });
 
-//console.log(allLessons)
+console.log(allLessons)
 //
 
-const countstudents = lessons => {
-  let out = 0; 
-  for(i in lessons){
+const countstudents = (lessons) => {
+  let out = 0;
+  for (let i in lessons) {
     out += lessons[i].numeroEstudantes;
   }
   return out;
-}
+};
 
-//console.log(countstudents(allLessons))
+console.log(countstudents(allLessons))
 //
 
-const getValueByNumber = (lesson,num) => Object.values(lesson)[num]
+const getValueByNumber = (lesson, num) => Object.values(lesson)[num];
 
-//console.log(getValueByNumber(lesson1,0));
+console.log(getValueByNumber(lesson1,0));
 //
 
-const verifyPair = (lesson, key, value) => lesson[key] == value ?  true :  false
+const verifyPair = (lesson, key, value) =>
+  lesson[key] == value ? true : false;
 
-//console.log(verifyPair(lesson3, 'turno', 'noite'));
+console.log(verifyPair(lesson3, 'turno', 'noite'));
