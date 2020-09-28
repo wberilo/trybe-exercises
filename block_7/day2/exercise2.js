@@ -64,6 +64,6 @@ console.log(getValueByNumber(lesson1,0));
 //
 
 const verifyPair = (lesson, key, value) =>
-  lesson[key] == value ? true : false;
+  lesson[key] === value ? true : false;
 
 console.log(verifyPair(lesson3, 'turno', 'noite'));
