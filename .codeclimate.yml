@@ -34,6 +34,9 @@ exclude_patterns:
 - "node_modules/"
 - "tests/"
 - "test/"
+- "tests.js"
+- "test.js"
+- "test*"
 - "README.md"
 plugins:
   editorconfig:
