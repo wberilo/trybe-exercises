@@ -10,7 +10,7 @@ function sum(a, b) {
 
 // implemente seus testes aqui
 
-assert.equal(sum(10, 2), 12);
+assert.strictEqual(sum(10, 2), 12);
 assert(sum(0, 0) === 0);
 assert.throws(() => { sum(10, '2'); }, /^Error: parameters must be numbers$/); 
 
