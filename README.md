@@ -37,4 +37,14 @@
     * CSS Flexbox - Parte 1
     * CSS Flexbox - Parte 2
     * CSS Responsivo - Mobile First
-* Block 7
+* Block 7 Introdução à JavaScript ES6 e Testes Unitários
+    * JavaScript ES6 - let, const, arrow functions e template literals
+    * JavaScript ES6 - Objects
+    * Testes unitários em JavaScript
+    * Projeto - JavaScript Testes Unitários
+* Block 8 Higher Order Functions do JavaScript ES6
+    * JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort
+    * JavaScript ES6 - Higher Order Functions - map e filter
+    * JavaScript ES6 - Higher Order Functions - reduce
+    * JavaScript ES6 - spread operator, parâmetro rest, destructuring e mais
+    * Projeto - Zoo functions
