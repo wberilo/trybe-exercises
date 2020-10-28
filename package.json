@@ -4,7 +4,7 @@
   "description": "#### Código desenvolvido durante o curso da [Trybe](https://www.betrybe.com/) ![Lines of code](https://github.com/wberilo/trybe-exercises/blob/image-data/badge.svg)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,8 @@
   "homepage": "https://github.com/wberilo/trybe-exercises#readme",
   "dependencies": {
     "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "jest": "^26.6.1"
   }
 }
