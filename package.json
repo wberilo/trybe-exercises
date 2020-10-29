@@ -4,7 +4,7 @@
   "description": "#### Código desenvolvido durante o curso da [Trybe](https://www.betrybe.com/) ![Lines of code](https://github.com/wberilo/trybe-exercises/blob/image-data/badge.svg)",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --watch"
   },
   "repository": {
     "type": "git",
